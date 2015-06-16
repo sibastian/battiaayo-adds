@@ -1,0 +1,156 @@
+/* line 3, ../sass/adds.scss */
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* line 9, ../sass/adds.scss */
+.bg-one {
+  background: url(../imgs/bg1.jpg) no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+}
+
+/* line 20, ../sass/adds.scss */
+.mob-one {
+  background: url(../imgs/mob1.png) no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 134px;
+  top: 160px;
+  height: 482px;
+  width: 237px;
+}
+/* line 29, ../sass/adds.scss */
+.mob-one .clear-pic {
+  height: 379px;
+  width: 213px;
+  background: #ff0;
+  position: absolute;
+  left: 11px;
+  top: 37px;
+}
+/* line 36, ../sass/adds.scss */
+.mob-one .clear-pic .bike {
+  background: url(../imgs/bg1.jpg) no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+/* line 45, ../sass/adds.scss */
+.right-c {
+  text-align: right;
+  position: absolute;
+  right: 52px;
+  top: 15%;
+  text-align: right;
+}
+/* line 52, ../sass/adds.scss */
+.right-c h1 {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 58px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 2px 2px 10px #000;
+  width: 880px;
+}
+
+/* line 65, ../sass/adds.scss */
+.adds {
+  position: absolute;
+  right: 52px;
+  top: 35%;
+  text-align: right;
+}
+/* line 71, ../sass/adds.scss */
+.adds p {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  width: 566px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 24px;
+  text-shadow: 1px 1px 6px #000;
+}
+
+/* line 84, ../sass/adds.scss */
+.contact {
+  position: absolute;
+  right: 0;
+  bottom: 70px;
+  text-align: right;
+}
+/* line 90, ../sass/adds.scss */
+.contact .info strong {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+  display: block;
+  font-size: 18px;
+  padding-right: 52px;
+}
+/* line 99, ../sass/adds.scss */
+.contact .info a {
+  display: inline-block;
+  color: #fff;
+  background-color: #72B4CE;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  padding: 20px 52px;
+  text-decoration: none;
+  text-shadow: 1px 1px 8px #000;
+}
+/* line 111, ../sass/adds.scss */
+.contact .copyright > strong {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  text-transform: lowercase;
+  padding-right: 52px;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+  /* line 125, ../sass/adds.scss */
+  .mob-one {
+    background: url(../imgs/mob1.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 134px;
+    top: 160px;
+    height: 482px;
+    width: 237px;
+  }
+  /* line 134, ../sass/adds.scss */
+  .mob-one .clear-pic {
+    height: 379px;
+    width: 213px;
+    background: #ff0;
+    position: absolute;
+    left: 11px;
+    top: 37px;
+  }
+  /* line 141, ../sass/adds.scss */
+  .mob-one .clear-pic .bike {
+    background: url(../imgs/bg1.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+}
